@@ -1,0 +1,28 @@
+public class Car {
+	private Color color;
+	private Engine engine;
+	private List<Wheel> wheels;
+public Car() {
+	this.color = Color.Black;
+	this.Engine = new V8();
+	this.wheels = new ArrayList<Wheel>(4);
+	int count = 0;
+	while (count <= 3) {
+	wheels.add(new ChromeAlloy16Inch());
+	count = count + 1;
+}
+}
+}
+public class Car {	{
+	private Color color;
+	private Engine engine;
+	private List<wheel> wheels;
+	
+	public Car(Color color, Engine engine, List <wheel> wheels)}
+	this.color = color;
+	this.engine = engine;
+	this.wheels = wheels;
+}
+}
+
+	
